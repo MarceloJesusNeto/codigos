@@ -25,7 +25,6 @@ public class Operadores {
 		System.out.println("Resultado da soma: " + soma);
 		System.out.println("somando 2 numero: " + (numero1 + numero2));
 		System.out.println("Divvisão de 2 numeros: " + divisao);
-		System.out.println("Subtração de 2 numero: " + subtracao);
 		System.out.println("Subtração de 2 numeros: " + subtracao);
 		System.out.println("Multiplicação de 2 numeros: " + multiplicacao );
 		System.out.println("Resto da divisão: " + restoDaDivisao);
