@@ -86,9 +86,12 @@ public class exercicio02 {
 		
 		System.out.println("Esta " + celsius + " graus celsius");
 		
+		System.out.println(" ");
+		
 		System.out.println("quantos graus ceusius?");
 		Ccelsius = leia.nextInt();
 		Cfahren = (Ccelsius * 9/5) + 32;
+		
 		
 		System.out.println("Esta " + Cfahren + " fahrenheits");
 		

@@ -14,7 +14,7 @@ public class Operadores {
 		 */
 		
 		int numero1 = 10;
-		int numero2 = 10;
+		int numero2 = 15;
 		int soma  = numero1 + numero2;
 		int divisao = numero1 / numero2;
 		int subtracao =  numero1 - numero2;
