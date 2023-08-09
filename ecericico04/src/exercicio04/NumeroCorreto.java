@@ -13,11 +13,12 @@ public class NumeroCorreto {
 		int usuario;
 		int contador =0;
 		
-		System.out.println("Ecolha um numero");
+		System.out.println("Ecolha um numero de 1 a 10");
 		usuario = leia.nextInt();
 		
 		do {
-			System.out.println("Ecolha um numero");
+			System.out.println("numerro incorreto");
+			System.out.println("Ecolha um numero de 1 a 10");
 			usuario = leia.nextInt();
 			contador ++;
 		}
