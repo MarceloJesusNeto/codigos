@@ -33,7 +33,6 @@ public class tabuada {
 				}
 			}
 			else if(usuario == '-') {
-
 				for(sub = 0;sub <=10;sub++) {
 					System.out.println(numeroUsuario + " - " + sub + " = " + (numeroUsuario - sub));
 				}

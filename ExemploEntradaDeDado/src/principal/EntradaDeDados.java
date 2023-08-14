@@ -29,9 +29,7 @@ public class EntradaDeDados {
 		System.out.print("Nome digitado foi: "+nome);
 		System.out.print(" A idade digitada foi: " + idade);
 		System.out.print(" Altura digitada foi: " + altura);
-		System.out.print(" O sexo digitado foi: " + sexo);
-		
-
+		System.out.println(" O sexo digitado foi: " + sexo);
 		
 		
 		leia.close();
