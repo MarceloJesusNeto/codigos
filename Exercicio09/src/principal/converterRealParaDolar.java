@@ -12,10 +12,10 @@ public class converterRealParaDolar {
 		double dolar;
 		String opcao;
 		
-		System.out.println("voce quer converter real para dolar? (y/n)");
+		System.out.println("voce quer converter real para dolar? (R/D)");
 		opcao = sc.nextLine();
 		
-		if(opcao.equals("y")) {
+		if(opcao.equals("R")) {
 			System.out.println("converção de reais para dolar");
 			System.out.println();
 			
@@ -27,14 +27,14 @@ public class converterRealParaDolar {
 			
 			System.out.println(realdolar(real,dolar));
 		}
-		else if(opcao.equals("n")) {
+		else if(opcao.equals("D")) {
 			System.out.println("converção de dolar para reais");
 			System.out.println();
 			
 			System.out.println("quantos dolares?");
 			real = sc.nextDouble();
 			
-			System.out.println("quanto esta valendo o real?");
+			System.out.println("quanto esta valendo o dola em comparação ao real?");
 			dolar = sc.nextDouble();
 			
 			System.out.println(dolarreal(real,dolar));
