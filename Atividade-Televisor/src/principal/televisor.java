@@ -7,7 +7,7 @@ public class televisor {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int canal = 1;
-		int volume = 1;
+		int volume = 0;
 		int vol = 1;
 		int oi = 0;
 		int opa = 0;
@@ -32,9 +32,18 @@ public class televisor {
 						canal = canal - 1;
 						
 					}
+					if (canal<0) {
+						System.out.println("*************erro de canais****************");
+						canal = canal + 1;
+						
+					}
 					else if (vol>16) {
-						System.out.println("************limite de canais****************");
+						System.out.println("************limite de volume****************");
 						vol = vol - 1;
+					}
+					else if (vol<0) {
+						System.out.println("************erros de volume****************");
+						vol = vol + 1;
 					}
 					else if(canal<16 || vol<17) {
 						
