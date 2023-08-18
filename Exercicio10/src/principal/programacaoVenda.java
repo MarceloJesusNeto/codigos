@@ -9,11 +9,6 @@ public class programacaoVenda {
 		SimulacaoDeVenda simu = new SimulacaoDeVenda();
 		String produto;
 		int quant;
-		double x = 8.5;
-		double y = 10.2;
-		double u = ((x*4/2)+y);
-		
-		System.out.println(u);
 		
 		System.out.println("Você gostaria de comprar um computador, monitor, celular, teclado, mouse");
 		produto = sc.nextLine();
