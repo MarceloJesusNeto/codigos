@@ -14,10 +14,11 @@ public class projectLoguim {
 		System.out.println("Qual seu email");
 		lg.email = sc.nextLine();
 		
-		System.out.println("Qual sua senha(somente numeros)");
-		lg.senha = sc.nextInt();
+		System.out.println("Qual sua senha");
+		lg.senha = sc.nextLine();
 		
-		System.out.println("Seu nome é: " + lg.nome + "email: " + lg.email + "é sua senha: " + "******");
+
+		lg.dadosUsuarios();
 	}
 
 }
